@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeFirst.DB.SqlServer.Shopping.Domain\CodeFirst.DB.SqlServer.Shopping.Domain.csproj" />
+    <ProjectReference Include="..\CodeFirst.DB.SqlServer.Shopping.Infraestructure\CodeFirst.DB.SqlServer.Shopping.Infraestructure.csproj" />
+  </ItemGroup>
+
+</Project>
